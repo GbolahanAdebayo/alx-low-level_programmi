@@ -3,31 +3,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - prints the last digit of the random
+ * number stored in the variable n
  * Return: Always 0 (success)
  */
 int main(void)
 {
 	int n;
-	int lastDig;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	lastDig = n % 10;
-
-	if (lastDig > 5)
-	{
-		printf("last digit of %d is %d and is greater than 5\n", n, lastDig);
-	}
-	if (lastDig == 0)
-	{
-		printf("last digit of %d is %d and is 0\n", n, lastDig);
-	}
-	if (lastDig < 6 && lastDig != 0)
-	{
-		printf("last digit of %d is %d and is less than 6and not 0\n", n, lastDig);
-	}
+	printf("Last digit of %d is %d ", n, n % 10);
+	if (n % 10 > 5)
+		printf("and is greater than 5\n");
+	else if (n % 10 == 0)
+		printf("and is 0\n");
+	else if (n % 10 < 6 && n % 10 != 0)
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }
