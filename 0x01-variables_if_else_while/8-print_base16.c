@@ -9,12 +9,13 @@
  */
 int main(void)
 {
-	int y;
+	int numb;
+	char alphab;
 
-	for (y = 0; y < 16; y++)
-	{
-		printf("%d", y);
-	}
-	printf("\n");
+	for (numb = 48; numb <= 57; numb++)
+	putchar(numb);
+	for (alphab = 97; alphab <= 102; alphab++)
+	putchar(alphab);
+	putchar('\n');
 	return (0);
 }
