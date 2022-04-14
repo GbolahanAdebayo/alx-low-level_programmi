@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
- * main - Test function for positive or negative
+ * main - main
  * Return: 0 (success)
  */
+
 int main(void)
 {
 	int i;
