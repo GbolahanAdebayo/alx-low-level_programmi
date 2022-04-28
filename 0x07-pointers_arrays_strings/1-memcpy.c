@@ -2,8 +2,8 @@
 
 /**
  * _memcpy - prints buffer in hexa
- * @src: buffer
- * @dest: buffer2
+ * @src: buffer A
+ * @dest: buffer B
  * @n: size
  * Return: Nothing.
  */
