@@ -1,1 +1,1 @@
-my README file for 007
+README file for pointers, arrays and strings
