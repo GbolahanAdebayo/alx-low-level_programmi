@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _strchr - prints buffer in hexa
- * @s: buffer
- * @c: buffer2
+ * @s: buffer A
+ * @c: buffer B
  *
  * Return: Nothing.
  */
